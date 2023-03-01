@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    width: 100%;
+    text-align: center;
+    margin:5px;
+}
+.sectionData {
+    padding: 5px;
+    width: 380px;
+    height: auto;
+    background-color: cadetblue;
+    border: 1px solid black;
+}
+
+.qestionSection {
+    display: flex;
+    padding: 3px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+.answer {
+    padding: 10px;
+    font-size: 20px;
+}
